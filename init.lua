@@ -14,6 +14,7 @@ vim.fileencodings = 'utf-8'
 vim.showmatch = true
 vim.opt.termguicolors = true
 vim.opt.mouse = ""
+vim.opt.signcolumn = 'yes'
 
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
