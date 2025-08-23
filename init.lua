@@ -28,4 +28,4 @@ require('config.keymap')
 require('autocmds.comment')
 require('autocmds.addpath')
 
-vim.cmd('colorscheme github_light_default')
+vim.cmd('colorscheme monokai-pro-classic')
