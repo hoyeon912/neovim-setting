@@ -28,4 +28,4 @@ require('config.keymap')
 require('autocmds.comment')
 require('autocmds.addpath')
 
-vim.cmd('colorscheme monokai-pro-classic')
+vim.cmd('colorscheme monokai-pro-octagon')

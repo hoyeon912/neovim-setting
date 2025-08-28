@@ -36,7 +36,7 @@ vim.api.nvim_create_autocmd('BufNewFile', {
 
 -- C language
 vim.api.nvim_create_autocmd('BufNewFile', {
-  pattern = '*.c',
+  pattern = {'*.c', '*.cpp'},
   callback = function()
     vim.api.nvim_buf_set_lines(0, 0, 0, false, {'// '})
   end,
