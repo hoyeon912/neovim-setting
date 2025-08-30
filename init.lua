@@ -16,8 +16,8 @@ vim.opt.termguicolors = true
 vim.opt.mouse = ""
 vim.opt.signcolumn = 'yes'
 
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
+-- vim.g.loaded_netrw = 1
+-- vim.g.loaded_netrwPlugin = 1
 
 vim.g.loaded_node_provider = 0
 vim.g.loaded_ruby_provider = 0
@@ -25,7 +25,5 @@ vim.g.loaded_perl_provider = 0
 
 require('config.lazy')
 require('config.keymap')
-require('autocmds.comment')
-require('autocmds.addpath')
 
-vim.cmd('colorscheme gituhb_light_default')
+vim.cmd('colorscheme github_light_default')
